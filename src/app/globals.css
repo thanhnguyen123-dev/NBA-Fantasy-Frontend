@@ -24,3 +24,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.curry {
+  background-image: url("/curry.jpg");
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team {
+  background-image: url("/team.png");
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cavs {
+  background-image: url("/cavs.png");
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-color {
+  background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+}
+
+.navbar-color { 
+  background-color: #0F172A;
+  color: white;
+} 
+
+.navbar-item {
+  @apply flex flex-col items-center justify-center 
+}
+

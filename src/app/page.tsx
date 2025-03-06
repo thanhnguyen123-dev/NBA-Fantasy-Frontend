@@ -1,8 +1,10 @@
+import NavBar from "./components/NavBar";
+import HomeScreen from "./components/HomeScreen";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-4xl font-bold">Welcome to NBA Fantasy</h1>
-      <p>Landing page</p>
+    <div className="flex flex-col h-screen gap-6 bg-color">
+      <NavBar />
+      <HomeScreen />
     </div>
   );
 }
